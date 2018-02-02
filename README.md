@@ -9,7 +9,7 @@ Login with your credentials
 Next go to your application directory. If it is not a git repository go ahead and create one
     
     git init
-    git add .
+    git add -a
     git commit
     
 Now the application is ready to be deployed on Heroku:
