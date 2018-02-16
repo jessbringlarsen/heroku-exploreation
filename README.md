@@ -1,7 +1,7 @@
 # heroku-exploreation
 
 ## Deploying
-To get going with Heroku download and install the cli for your platform.
+To get going with Heroku download and install the [cli](https://devcenter.heroku.com/articles/heroku-cli) for your platform.
 Login with your credentials    
     
     heroku login
