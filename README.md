@@ -29,5 +29,12 @@ Once the application have been pushed to Heroku check the logs to verify:
     
 First inspect the output of the _heroku apps_ command to get your application name and then issue the _logs_ command to inspect logs from the application.
 
+## Procfile
+In some situations you must tell Heroku how to startup the application. The _Procfile_ can be used to specify this
+
+    web: java -Dspring.profiles.active=heroku -jar target/myapp.jar
+    
+In the example above we would like to activate the heroku Spring profile during startup.
+
 ## Addons
 There are lots of different addons, e.g. a PostgreSQL addon. If you add the PostgreSQL addon a _DATABASE_URL_ variable is exposed to your application and can be used to connect to the database.
